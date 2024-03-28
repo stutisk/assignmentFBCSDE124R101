@@ -1,10 +1,11 @@
-import { FilterPage } from "./Pages/FilterPage";
+import { MarketMoodIndicator } from "./Components/MarketMoodIndicator/MarketMoodIndicator";
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <FilterPage value={75} />
+        <MarketMoodIndicator />
       </header>
     </div>
   );

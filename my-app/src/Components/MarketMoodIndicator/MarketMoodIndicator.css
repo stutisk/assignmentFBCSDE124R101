@@ -48,8 +48,7 @@ code {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-weight: 600;
-  font-size: 1.5rem;
+ 
   position: relative;
   text-align: center;
   color: white;
@@ -106,7 +105,7 @@ code {
 .needle {
   position: relative;
 
-  background-color: #333;
+  /* background-color: #333; */
   height: 7px;
   width: 202px;
   border-bottom-left-radius: 100%;
@@ -122,13 +121,35 @@ code {
 .MarketMoodIndicator-centre {
   content: "";
   color: #fff;
+ 
+
+  border-radius: 100px 100px 0 0 !important;
+  position: relative;
+  color: #fff;
+ 
+}
+
+.MarketMoodIndicator-centre-inner {
+ 
   width: 200px;
   height: 20%;
   background: rgb(240, 240, 241);
-  border-radius: 100px 100px 0 0 !important;
-  position: relative;
+ 
   color: #fff;
   bottom: 104px;
   left: 145px;
   z-index: 9;
+}
+.MarketMoodIndicator-centre-outer {
+  width: 223px;
+  height: 25%;
+  background: rgb(246, 246, 248);
+  bottom: 218px;
+  left: 133px;
+}
+
+.market_mood_Status{
+  text-align: center;
+    position: relative;
+    bottom: 200px;
 }

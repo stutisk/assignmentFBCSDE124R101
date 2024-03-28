@@ -43,13 +43,19 @@ code {
   color: white;
   border-radius: 5px;
   padding: 15px;
- 
+
   width: 30%;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
   font-family: sans-serif;
- 
+
   font-weight: 300;
   background: black;
 }
 
 
+.font_size1{
+font-size: 1.5rem;
+}
+.font-weight{
+  font-weight: 600;
+}

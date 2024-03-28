@@ -48,7 +48,7 @@ code {
   display: flex;
   justify-content: center;
   align-items: center;
- 
+
   position: relative;
   text-align: center;
   color: white;
@@ -56,16 +56,13 @@ code {
 
 .content:nth-child(2) {
   transform: rotate(321deg);
-
   left: 13px;
-
   top: -69px;
 }
 
 .content:nth-child(1) {
   transform: rotate(288deg);
   left: -88px;
-
   top: 130px;
 }
 .content:nth-child(3) {
@@ -104,8 +101,6 @@ code {
 }
 .needle {
   position: relative;
-
-  /* background-color: #333; */
   height: 7px;
   width: 202px;
   border-bottom-left-radius: 100%;
@@ -121,20 +116,17 @@ code {
 .MarketMoodIndicator-centre {
   content: "";
   color: #fff;
- 
 
   border-radius: 100px 100px 0 0 !important;
   position: relative;
   color: #fff;
- 
 }
 
 .MarketMoodIndicator-centre-inner {
- 
   width: 200px;
   height: 20%;
   background: rgb(240, 240, 241);
- 
+
   color: #fff;
   bottom: 104px;
   left: 145px;
@@ -148,8 +140,8 @@ code {
   left: 133px;
 }
 
-.market_mood_Status{
+.market_mood_Status {
   text-align: center;
-    position: relative;
-    bottom: 200px;
+  position: relative;
+  bottom: 200px;
 }
